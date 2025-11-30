@@ -4,3 +4,4 @@ git add .
 git commit -m "Class 3"
 git push origin main
 git remote add origin https://github.com/xr1m/Class_Projects_-Replit-
+git remote set-url origin https://github.com/xr1m/Python-Class-Projects.git
