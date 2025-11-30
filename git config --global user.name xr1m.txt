@@ -1,0 +1,6 @@
+git config --global user.name "xr1m"
+git config --global user.email "perryar44@gmail.com"
+git add .
+git commit -m "Class 3"
+git push origin main
+git remote add origin https://github.com/xr1m/Class_Projects_-Replit-
