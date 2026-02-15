@@ -17,5 +17,3 @@ while True:
         t.left(90)
         size = size - 5
     size = size + 1
-
-turtle.done()
