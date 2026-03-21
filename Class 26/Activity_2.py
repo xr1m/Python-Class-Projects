@@ -4,9 +4,8 @@ import random
 import time
 
 # Pick a number between 1 and 100
-number = random.randint(1, 100)
 
-# We'll use this as a global variable (though in this simple case we could avoid it)
+
 name = ""
 
 def intro():
@@ -68,6 +67,7 @@ def pick():
 playagain = "yes"
 
 while playagain.lower() in ["yes", "y"]:
+    number = random.randint(1, 100)
     intro()
     pick()
 
